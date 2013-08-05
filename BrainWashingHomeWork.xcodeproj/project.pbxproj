@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599834DA17AF93BE00B2CE95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599834D917AF93BE00B2CE95 /* UIKit.framework */; };
+		599834DC17AF93BE00B2CE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599834DB17AF93BE00B2CE95 /* Foundation.framework */; };
+		599834DE17AF93BE00B2CE95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599834DD17AF93BE00B2CE95 /* CoreGraphics.framework */; };
+		599834E017AF93BE00B2CE95 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599834DF17AF93BE00B2CE95 /* CoreData.framework */; };
+		599834E617AF93BE00B2CE95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 599834E417AF93BE00B2CE95 /* InfoPlist.strings */; };
+		599834E817AF93BE00B2CE95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 599834E717AF93BE00B2CE95 /* main.m */; };
+		599834EC17AF93BE00B2CE95 /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 599834EB17AF93BE00B2CE95 /* WPAppDelegate.m */; };
+		599834EE17AF93BE00B2CE95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 599834ED17AF93BE00B2CE95 /* Default.png */; };
+		599834F017AF93BE00B2CE95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599834EF17AF93BE00B2CE95 /* Default@2x.png */; };
+		599834F217AF93BE00B2CE95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599834F117AF93BE00B2CE95 /* Default-568h@2x.png */; };
+		599834F517AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 599834F317AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599834D617AF93BE00B2CE95 /* BrainWashingHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainWashingHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		599834D917AF93BE00B2CE95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		599834DB17AF93BE00B2CE95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		599834DD17AF93BE00B2CE95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		599834DF17AF93BE00B2CE95 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		599834E317AF93BE00B2CE95 /* BrainWashingHomeWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainWashingHomeWork-Info.plist"; sourceTree = "<group>"; };
+		599834E517AF93BE00B2CE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		599834E717AF93BE00B2CE95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		599834E917AF93BE00B2CE95 /* BrainWashingHomeWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainWashingHomeWork-Prefix.pch"; sourceTree = "<group>"; };
+		599834EA17AF93BE00B2CE95 /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		599834EB17AF93BE00B2CE95 /* WPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
+		599834ED17AF93BE00B2CE95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		599834EF17AF93BE00B2CE95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		599834F117AF93BE00B2CE95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		599834F417AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrainWashingHomeWork.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599834D317AF93BE00B2CE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599834DA17AF93BE00B2CE95 /* UIKit.framework in Frameworks */,
+				599834DC17AF93BE00B2CE95 /* Foundation.framework in Frameworks */,
+				599834DE17AF93BE00B2CE95 /* CoreGraphics.framework in Frameworks */,
+				599834E017AF93BE00B2CE95 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599834CD17AF93BE00B2CE95 = {
+			isa = PBXGroup;
+			children = (
+				599834E117AF93BE00B2CE95 /* BrainWashingHomeWork */,
+				599834D817AF93BE00B2CE95 /* Frameworks */,
+				599834D717AF93BE00B2CE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599834D717AF93BE00B2CE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599834D617AF93BE00B2CE95 /* BrainWashingHomeWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599834D817AF93BE00B2CE95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599834D917AF93BE00B2CE95 /* UIKit.framework */,
+				599834DB17AF93BE00B2CE95 /* Foundation.framework */,
+				599834DD17AF93BE00B2CE95 /* CoreGraphics.framework */,
+				599834DF17AF93BE00B2CE95 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		599834E117AF93BE00B2CE95 /* BrainWashingHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				599834EA17AF93BE00B2CE95 /* WPAppDelegate.h */,
+				599834EB17AF93BE00B2CE95 /* WPAppDelegate.m */,
+				599834F317AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld */,
+				599834E217AF93BE00B2CE95 /* Supporting Files */,
+			);
+			path = BrainWashingHomeWork;
+			sourceTree = "<group>";
+		};
+		599834E217AF93BE00B2CE95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				599834E317AF93BE00B2CE95 /* BrainWashingHomeWork-Info.plist */,
+				599834E417AF93BE00B2CE95 /* InfoPlist.strings */,
+				599834E717AF93BE00B2CE95 /* main.m */,
+				599834E917AF93BE00B2CE95 /* BrainWashingHomeWork-Prefix.pch */,
+				599834ED17AF93BE00B2CE95 /* Default.png */,
+				599834EF17AF93BE00B2CE95 /* Default@2x.png */,
+				599834F117AF93BE00B2CE95 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599834D517AF93BE00B2CE95 /* BrainWashingHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599834F817AF93BE00B2CE95 /* Build configuration list for PBXNativeTarget "BrainWashingHomeWork" */;
+			buildPhases = (
+				599834D217AF93BE00B2CE95 /* Sources */,
+				599834D317AF93BE00B2CE95 /* Frameworks */,
+				599834D417AF93BE00B2CE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainWashingHomeWork;
+			productName = BrainWashingHomeWork;
+			productReference = 599834D617AF93BE00B2CE95 /* BrainWashingHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599834CE17AF93BE00B2CE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = WiredPanda;
+			};
+			buildConfigurationList = 599834D117AF93BE00B2CE95 /* Build configuration list for PBXProject "BrainWashingHomeWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 599834CD17AF93BE00B2CE95;
+			productRefGroup = 599834D717AF93BE00B2CE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599834D517AF93BE00B2CE95 /* BrainWashingHomeWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599834D417AF93BE00B2CE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599834E617AF93BE00B2CE95 /* InfoPlist.strings in Resources */,
+				599834EE17AF93BE00B2CE95 /* Default.png in Resources */,
+				599834F017AF93BE00B2CE95 /* Default@2x.png in Resources */,
+				599834F217AF93BE00B2CE95 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599834D217AF93BE00B2CE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599834E817AF93BE00B2CE95 /* main.m in Sources */,
+				599834EC17AF93BE00B2CE95 /* WPAppDelegate.m in Sources */,
+				599834F517AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		599834E417AF93BE00B2CE95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599834E517AF93BE00B2CE95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		599834F617AF93BE00B2CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		599834F717AF93BE00B2CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599834F917AF93BE00B2CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainWashingHomeWork/BrainWashingHomeWork-Prefix.pch";
+				INFOPLIST_FILE = "BrainWashingHomeWork/BrainWashingHomeWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		599834FA17AF93BE00B2CE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainWashingHomeWork/BrainWashingHomeWork-Prefix.pch";
+				INFOPLIST_FILE = "BrainWashingHomeWork/BrainWashingHomeWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599834D117AF93BE00B2CE95 /* Build configuration list for PBXProject "BrainWashingHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599834F617AF93BE00B2CE95 /* Debug */,
+				599834F717AF93BE00B2CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599834F817AF93BE00B2CE95 /* Build configuration list for PBXNativeTarget "BrainWashingHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599834F917AF93BE00B2CE95 /* Debug */,
+				599834FA17AF93BE00B2CE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		599834F317AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				599834F417AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodel */,
+			);
+			currentVersion = 599834F417AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodel */;
+			path = BrainWashingHomeWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 599834CE17AF93BE00B2CE95 /* Project object */;
+}
