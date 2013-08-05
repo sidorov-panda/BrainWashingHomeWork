@@ -18,6 +18,23 @@
 		599834F017AF93BE00B2CE95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599834EF17AF93BE00B2CE95 /* Default@2x.png */; };
 		599834F217AF93BE00B2CE95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 599834F117AF93BE00B2CE95 /* Default-568h@2x.png */; };
 		599834F517AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 599834F317AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld */; };
+		5998359E17AF957A00B2CE95 /* WPWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998359D17AF957A00B2CE95 /* WPWineViewController.m */; };
+		599835A217AF95E600B2CE95 /* WPWineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 599835A117AF95E600B2CE95 /* WPWineAPI.m */; };
+		5998377817AF9FA000B2CE95 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998376617AF9FA000B2CE95 /* AFHTTPClient.m */; };
+		5998377917AF9FA000B2CE95 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998376817AF9FA000B2CE95 /* AFHTTPRequestOperation.m */; };
+		5998377A17AF9FA000B2CE95 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998376A17AF9FA000B2CE95 /* AFImageRequestOperation.m */; };
+		5998377B17AF9FA000B2CE95 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998376C17AF9FA000B2CE95 /* AFJSONRequestOperation.m */; };
+		5998377C17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998376E17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.m */; };
+		5998377D17AF9FA000B2CE95 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377117AF9FA000B2CE95 /* AFPropertyListRequestOperation.m */; };
+		5998377E17AF9FA000B2CE95 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377317AF9FA000B2CE95 /* AFURLConnectionOperation.m */; };
+		5998377F17AF9FA000B2CE95 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377517AF9FA000B2CE95 /* AFXMLRequestOperation.m */; };
+		5998378017AF9FA000B2CE95 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377717AF9FA000B2CE95 /* UIImageView+AFNetworking.m */; };
+		5998378217AFA18D00B2CE95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5998378117AFA18D00B2CE95 /* Security.framework */; };
+		5998378617AFA58300B2CE95 /* WPIssueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378517AFA58300B2CE95 /* WPIssueModel.m */; };
+		5998378917AFA8B600B2CE95 /* WPProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378817AFA8B600B2CE95 /* WPProductModel.m */; };
+		5998378C17AFAFE800B2CE95 /* WPStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378B17AFAFE800B2CE95 /* WPStoreModel.m */; };
+		5998379017AFB78100B2CE95 /* WPCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378F17AFB78100B2CE95 /* WPCoreDataManager.m */; };
+		5998379317AFD8E500B2CE95 /* WPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998379217AFD8E500B2CE95 /* WPBaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +53,40 @@
 		599834EF17AF93BE00B2CE95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		599834F117AF93BE00B2CE95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		599834F417AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrainWashingHomeWork.xcdatamodel; sourceTree = "<group>"; };
+		5998359C17AF957A00B2CE95 /* WPWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWineViewController.h; sourceTree = "<group>"; };
+		5998359D17AF957A00B2CE95 /* WPWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWineViewController.m; sourceTree = "<group>"; };
+		599835A017AF95E600B2CE95 /* WPWineAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWineAPI.h; sourceTree = "<group>"; };
+		599835A117AF95E600B2CE95 /* WPWineAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWineAPI.m; sourceTree = "<group>"; };
+		5998376517AF9FA000B2CE95 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		5998376617AF9FA000B2CE95 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		5998376717AF9FA000B2CE95 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		5998376817AF9FA000B2CE95 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		5998376917AF9FA000B2CE95 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		5998376A17AF9FA000B2CE95 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		5998376B17AF9FA000B2CE95 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		5998376C17AF9FA000B2CE95 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		5998376D17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		5998376E17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		5998376F17AF9FA000B2CE95 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		5998377017AF9FA000B2CE95 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		5998377117AF9FA000B2CE95 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		5998377217AF9FA000B2CE95 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		5998377317AF9FA000B2CE95 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		5998377417AF9FA000B2CE95 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		5998377517AF9FA000B2CE95 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		5998377617AF9FA000B2CE95 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5998377717AF9FA000B2CE95 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		5998378117AFA18D00B2CE95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5998378417AFA58300B2CE95 /* WPIssueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPIssueModel.h; sourceTree = "<group>"; };
+		5998378517AFA58300B2CE95 /* WPIssueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPIssueModel.m; sourceTree = "<group>"; };
+		5998378717AFA8B600B2CE95 /* WPProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPProductModel.h; sourceTree = "<group>"; };
+		5998378817AFA8B600B2CE95 /* WPProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPProductModel.m; sourceTree = "<group>"; };
+		5998378A17AFAFE800B2CE95 /* WPStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPStoreModel.h; sourceTree = "<group>"; };
+		5998378B17AFAFE800B2CE95 /* WPStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPStoreModel.m; sourceTree = "<group>"; };
+		5998378E17AFB78100B2CE95 /* WPCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCoreDataManager.h; sourceTree = "<group>"; };
+		5998378F17AFB78100B2CE95 /* WPCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCoreDataManager.m; sourceTree = "<group>"; };
+		5998379117AFD8E500B2CE95 /* WPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPBaseModel.h; sourceTree = "<group>"; };
+		5998379217AFD8E500B2CE95 /* WPBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPBaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5998378217AFA18D00B2CE95 /* Security.framework in Frameworks */,
 				599834DA17AF93BE00B2CE95 /* UIKit.framework in Frameworks */,
 				599834DC17AF93BE00B2CE95 /* Foundation.framework in Frameworks */,
 				599834DE17AF93BE00B2CE95 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +125,8 @@
 		599834D817AF93BE00B2CE95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5998378117AFA18D00B2CE95 /* Security.framework */,
+				5998376417AF9FA000B2CE95 /* AFNetworking */,
 				599834D917AF93BE00B2CE95 /* UIKit.framework */,
 				599834DB17AF93BE00B2CE95 /* Foundation.framework */,
 				599834DD17AF93BE00B2CE95 /* CoreGraphics.framework */,
@@ -84,6 +138,7 @@
 		599834E117AF93BE00B2CE95 /* BrainWashingHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				5998359A17AF953800B2CE95 /* Classes */,
 				599834EA17AF93BE00B2CE95 /* WPAppDelegate.h */,
 				599834EB17AF93BE00B2CE95 /* WPAppDelegate.m */,
 				599834F317AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld */,
@@ -104,6 +159,86 @@
 				599834F117AF93BE00B2CE95 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5998359A17AF953800B2CE95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5998378D17AFB76700B2CE95 /* WPCoreData */,
+				5998378317AFA56A00B2CE95 /* m */,
+				5998359F17AF95CD00B2CE95 /* API */,
+				5998359B17AF954A00B2CE95 /* c */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5998359B17AF954A00B2CE95 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				5998359C17AF957A00B2CE95 /* WPWineViewController.h */,
+				5998359D17AF957A00B2CE95 /* WPWineViewController.m */,
+			);
+			name = c;
+			sourceTree = "<group>";
+		};
+		5998359F17AF95CD00B2CE95 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				599835A017AF95E600B2CE95 /* WPWineAPI.h */,
+				599835A117AF95E600B2CE95 /* WPWineAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		5998376417AF9FA000B2CE95 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5998376517AF9FA000B2CE95 /* AFHTTPClient.h */,
+				5998376617AF9FA000B2CE95 /* AFHTTPClient.m */,
+				5998376717AF9FA000B2CE95 /* AFHTTPRequestOperation.h */,
+				5998376817AF9FA000B2CE95 /* AFHTTPRequestOperation.m */,
+				5998376917AF9FA000B2CE95 /* AFImageRequestOperation.h */,
+				5998376A17AF9FA000B2CE95 /* AFImageRequestOperation.m */,
+				5998376B17AF9FA000B2CE95 /* AFJSONRequestOperation.h */,
+				5998376C17AF9FA000B2CE95 /* AFJSONRequestOperation.m */,
+				5998376D17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.h */,
+				5998376E17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.m */,
+				5998376F17AF9FA000B2CE95 /* AFNetworking.h */,
+				5998377017AF9FA000B2CE95 /* AFPropertyListRequestOperation.h */,
+				5998377117AF9FA000B2CE95 /* AFPropertyListRequestOperation.m */,
+				5998377217AF9FA000B2CE95 /* AFURLConnectionOperation.h */,
+				5998377317AF9FA000B2CE95 /* AFURLConnectionOperation.m */,
+				5998377417AF9FA000B2CE95 /* AFXMLRequestOperation.h */,
+				5998377517AF9FA000B2CE95 /* AFXMLRequestOperation.m */,
+				5998377617AF9FA000B2CE95 /* UIImageView+AFNetworking.h */,
+				5998377717AF9FA000B2CE95 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+		5998378317AFA56A00B2CE95 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				5998378417AFA58300B2CE95 /* WPIssueModel.h */,
+				5998378517AFA58300B2CE95 /* WPIssueModel.m */,
+				5998378717AFA8B600B2CE95 /* WPProductModel.h */,
+				5998378817AFA8B600B2CE95 /* WPProductModel.m */,
+				5998378A17AFAFE800B2CE95 /* WPStoreModel.h */,
+				5998378B17AFAFE800B2CE95 /* WPStoreModel.m */,
+				5998379117AFD8E500B2CE95 /* WPBaseModel.h */,
+				5998379217AFD8E500B2CE95 /* WPBaseModel.m */,
+			);
+			name = m;
+			sourceTree = "<group>";
+		};
+		5998378D17AFB76700B2CE95 /* WPCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5998378E17AFB78100B2CE95 /* WPCoreDataManager.h */,
+				5998378F17AFB78100B2CE95 /* WPCoreDataManager.m */,
+			);
+			name = WPCoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +310,22 @@
 				599834E817AF93BE00B2CE95 /* main.m in Sources */,
 				599834EC17AF93BE00B2CE95 /* WPAppDelegate.m in Sources */,
 				599834F517AF93BE00B2CE95 /* BrainWashingHomeWork.xcdatamodeld in Sources */,
+				5998359E17AF957A00B2CE95 /* WPWineViewController.m in Sources */,
+				599835A217AF95E600B2CE95 /* WPWineAPI.m in Sources */,
+				5998377817AF9FA000B2CE95 /* AFHTTPClient.m in Sources */,
+				5998377917AF9FA000B2CE95 /* AFHTTPRequestOperation.m in Sources */,
+				5998377A17AF9FA000B2CE95 /* AFImageRequestOperation.m in Sources */,
+				5998377B17AF9FA000B2CE95 /* AFJSONRequestOperation.m in Sources */,
+				5998377C17AF9FA000B2CE95 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5998377D17AF9FA000B2CE95 /* AFPropertyListRequestOperation.m in Sources */,
+				5998377E17AF9FA000B2CE95 /* AFURLConnectionOperation.m in Sources */,
+				5998377F17AF9FA000B2CE95 /* AFXMLRequestOperation.m in Sources */,
+				5998378017AF9FA000B2CE95 /* UIImageView+AFNetworking.m in Sources */,
+				5998378617AFA58300B2CE95 /* WPIssueModel.m in Sources */,
+				5998378917AFA8B600B2CE95 /* WPProductModel.m in Sources */,
+				5998378C17AFAFE800B2CE95 /* WPStoreModel.m in Sources */,
+				5998379017AFB78100B2CE95 /* WPCoreDataManager.m in Sources */,
+				5998379317AFD8E500B2CE95 /* WPBaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +402,18 @@
 		599834F917AF93BE00B2CE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrainWashingHomeWork/BrainWashingHomeWork-Prefix.pch";
 				INFOPLIST_FILE = "BrainWashingHomeWork/BrainWashingHomeWork-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ocmock/Examples/iOS5Example/usr/lib\"",
+					"\"$(SRCROOT)/ocmock/Examples/iPhoneExample/Libraries\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,9 +422,18 @@
 		599834FA17AF93BE00B2CE95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrainWashingHomeWork/BrainWashingHomeWork-Prefix.pch";
 				INFOPLIST_FILE = "BrainWashingHomeWork/BrainWashingHomeWork-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ocmock/Examples/iOS5Example/usr/lib\"",
+					"\"$(SRCROOT)/ocmock/Examples/iPhoneExample/Libraries\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

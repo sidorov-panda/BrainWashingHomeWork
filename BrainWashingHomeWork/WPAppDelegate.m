@@ -7,6 +7,7 @@
 //
 
 #import "WPAppDelegate.h"
+#import "WPWineViewController.h"
 
 @implementation WPAppDelegate
 
@@ -19,6 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    WPWineViewController *rvc = [[WPWineViewController alloc] init];
+    
+    
+    self.window.rootViewController = rvc;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -48,7 +53,8 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+    [[WPCoreDataManager sharedInstance] saveContext:[[WPCoreDataManager sharedInstance] defaultManagedObjectContext]];
+    //[self saveContext];
 }
 
 - (void)saveContext

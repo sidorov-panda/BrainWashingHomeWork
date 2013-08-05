@@ -13,3 +13,7 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 #endif
+
+#import "AFNetworking.h"
+#import "WPWineAPI.h"
+#import "WPCoreDataManager.h"

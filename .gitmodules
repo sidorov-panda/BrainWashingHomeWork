@@ -1,0 +1,9 @@
+[submodule "AFNetworking"]
+	path = AFNetworking
+	url = https://github.com/sidorov-panda/AFNetworking.git
+[submodule "expecta"]
+	path = expecta
+	url = https://github.com/specta/expecta.git
+[submodule "ocmock"]
+	path = ocmock
+	url = https://github.com/erikdoe/ocmock.git
