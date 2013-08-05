@@ -20,10 +20,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    WPWineViewController *rvc = [[WPWineViewController alloc] init];
+    //WPWineViewController *rvc = [[WPWineViewController alloc] init];
     
+    UICollectionViewFlowLayout *aFlowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [aFlowLayout setItemSize:CGSizeMake(100, 100)];
+    [aFlowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     
-    self.window.rootViewController = rvc;
+    self.window.rootViewController = [[WPWineViewController alloc] initWithCollectionViewLayout:aFlowLayout];
     [self.window makeKeyAndVisible];
     return YES;
 }

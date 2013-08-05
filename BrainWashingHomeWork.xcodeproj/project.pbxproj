@@ -30,11 +30,10 @@
 		5998377F17AF9FA000B2CE95 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377517AF9FA000B2CE95 /* AFXMLRequestOperation.m */; };
 		5998378017AF9FA000B2CE95 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998377717AF9FA000B2CE95 /* UIImageView+AFNetworking.m */; };
 		5998378217AFA18D00B2CE95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5998378117AFA18D00B2CE95 /* Security.framework */; };
-		5998378617AFA58300B2CE95 /* WPIssueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378517AFA58300B2CE95 /* WPIssueModel.m */; };
-		5998378917AFA8B600B2CE95 /* WPProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378817AFA8B600B2CE95 /* WPProductModel.m */; };
-		5998378C17AFAFE800B2CE95 /* WPStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378B17AFAFE800B2CE95 /* WPStoreModel.m */; };
 		5998379017AFB78100B2CE95 /* WPCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998378F17AFB78100B2CE95 /* WPCoreDataManager.m */; };
 		5998379317AFD8E500B2CE95 /* WPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998379217AFD8E500B2CE95 /* WPBaseModel.m */; };
+		5998379617AFF98E00B2CE95 /* WPIssueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998379517AFF98E00B2CE95 /* WPIssueModel.m */; };
+		5998379917AFFC0600B2CE95 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 5998379817AFFC0600B2CE95 /* Products.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,16 +76,14 @@
 		5998377617AF9FA000B2CE95 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		5998377717AF9FA000B2CE95 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		5998378117AFA18D00B2CE95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		5998378417AFA58300B2CE95 /* WPIssueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPIssueModel.h; sourceTree = "<group>"; };
-		5998378517AFA58300B2CE95 /* WPIssueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPIssueModel.m; sourceTree = "<group>"; };
-		5998378717AFA8B600B2CE95 /* WPProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPProductModel.h; sourceTree = "<group>"; };
-		5998378817AFA8B600B2CE95 /* WPProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPProductModel.m; sourceTree = "<group>"; };
-		5998378A17AFAFE800B2CE95 /* WPStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPStoreModel.h; sourceTree = "<group>"; };
-		5998378B17AFAFE800B2CE95 /* WPStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPStoreModel.m; sourceTree = "<group>"; };
 		5998378E17AFB78100B2CE95 /* WPCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCoreDataManager.h; sourceTree = "<group>"; };
 		5998378F17AFB78100B2CE95 /* WPCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCoreDataManager.m; sourceTree = "<group>"; };
 		5998379117AFD8E500B2CE95 /* WPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPBaseModel.h; sourceTree = "<group>"; };
 		5998379217AFD8E500B2CE95 /* WPBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPBaseModel.m; sourceTree = "<group>"; };
+		5998379417AFF98E00B2CE95 /* WPIssueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPIssueModel.h; sourceTree = "<group>"; };
+		5998379517AFF98E00B2CE95 /* WPIssueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPIssueModel.m; sourceTree = "<group>"; };
+		5998379717AFFC0600B2CE95 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		5998379817AFFC0600B2CE95 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,14 +217,12 @@
 		5998378317AFA56A00B2CE95 /* m */ = {
 			isa = PBXGroup;
 			children = (
-				5998378417AFA58300B2CE95 /* WPIssueModel.h */,
-				5998378517AFA58300B2CE95 /* WPIssueModel.m */,
-				5998378717AFA8B600B2CE95 /* WPProductModel.h */,
-				5998378817AFA8B600B2CE95 /* WPProductModel.m */,
-				5998378A17AFAFE800B2CE95 /* WPStoreModel.h */,
-				5998378B17AFAFE800B2CE95 /* WPStoreModel.m */,
 				5998379117AFD8E500B2CE95 /* WPBaseModel.h */,
 				5998379217AFD8E500B2CE95 /* WPBaseModel.m */,
+				5998379417AFF98E00B2CE95 /* WPIssueModel.h */,
+				5998379517AFF98E00B2CE95 /* WPIssueModel.m */,
+				5998379717AFFC0600B2CE95 /* Products.h */,
+				5998379817AFFC0600B2CE95 /* Products.m */,
 			);
 			name = m;
 			sourceTree = "<group>";
@@ -321,11 +316,10 @@
 				5998377E17AF9FA000B2CE95 /* AFURLConnectionOperation.m in Sources */,
 				5998377F17AF9FA000B2CE95 /* AFXMLRequestOperation.m in Sources */,
 				5998378017AF9FA000B2CE95 /* UIImageView+AFNetworking.m in Sources */,
-				5998378617AFA58300B2CE95 /* WPIssueModel.m in Sources */,
-				5998378917AFA8B600B2CE95 /* WPProductModel.m in Sources */,
-				5998378C17AFAFE800B2CE95 /* WPStoreModel.m in Sources */,
 				5998379017AFB78100B2CE95 /* WPCoreDataManager.m in Sources */,
 				5998379317AFD8E500B2CE95 /* WPBaseModel.m in Sources */,
+				5998379617AFF98E00B2CE95 /* WPIssueModel.m in Sources */,
+				5998379917AFFC0600B2CE95 /* Products.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
