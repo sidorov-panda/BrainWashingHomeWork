@@ -17,3 +17,4 @@
 #import "AFNetworking.h"
 #import "WPWineAPI.h"
 #import "WPCoreDataManager.h"
+#import <QuartzCore/QuartzCore.h>

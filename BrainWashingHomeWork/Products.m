@@ -43,7 +43,7 @@
                                          inContext:[[WPCoreDataManager sharedInstance] defaultManagedObjectContext]];
             if ([savedProductModels count] > 0) {
                 [products addObject:savedProductModels[0]];
-                //continue;
+                continue;
             }
             Products *productModel = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([self class]) inManagedObjectContext:[WPCoreDataManager sharedInstance].defaultManagedObjectContext];
             productModel.productId = product[@"id"];
@@ -55,6 +55,7 @@
             productModel.label2x = product[@"label2x"];
             [products addObject:productModel];
         }
+        
         completionHandler(products, nil);
     };
     

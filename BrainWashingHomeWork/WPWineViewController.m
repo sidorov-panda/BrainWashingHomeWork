@@ -12,10 +12,7 @@
 #import "WPCoreDataManager.h"
 #import "UIImageView+AFNetworking.h"
 
-@interface WPWineViewController () {
-
-    NSArray *_data;
-}
+@interface WPWineViewController ()
 
 @end
 
@@ -30,14 +27,15 @@
     return self;
 }
 
-- (BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
-    NSString *query = [searchBar.text stringByReplacingCharactersInRange:range withString:text];
-    NSLog(@"query %@", query);
-    
-    
-    [self fetchResultsWithQuery:query];
-    [self.collectionView reloadData];
-    return YES;
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    [self.searchBar endEditing:YES];
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
+    if (![searchText isEqualToString:@""] && searchText) {
+        [self fetchResultsWithQuery:searchText];
+        [self.collectionView reloadData];
+    }
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
@@ -52,26 +50,18 @@
 {
     [super viewDidLoad];
     
+    [self setupLayerMask];
+    
     self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
 	self.searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
 	self.searchBar.autocapitalizationType = UITextAutocapitalizationTypeNone;
 	self.searchBar.keyboardType = UIKeyboardTypeAlphabet;
 	self.searchBar.delegate = self;
-    //self.searchBar.searchResultsButtonSelected = YES;
+
     self.searchBar.showsCancelButton = YES;
     [self.view addSubview:self.searchBar];
-	//self.collectionView.tableHeaderView = self.searchBar;
-    
-	// Create the search display controller
-	//self.searchDC = [[UISearchDisplayController alloc] initWithSearchBar:self.searchBar contentsController:self] ;
-	//self.searchDC.searchResultsDataSource = self;
-	//self.searchDC.searchResultsDelegate = self;
-    
     
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
-    
-    
-    //[self.view addSubview:[UISearchBar]];
     
     [[WPCoreDataManager sharedInstance] loadContextWithCompletionHandler:^(NSError *error) {
         if (!error) {
@@ -85,7 +75,6 @@
                             }
                         }
                     }
-                    //_data = products.copy;
                     [self fetchResultsWithQuery:@""];
 
                     [self.collectionView reloadData];
@@ -131,26 +120,15 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     Products *product = [self.fetchedResultsController objectAtIndexPath:indexPath];
     UICollectionViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
-    //cell.backgroundColor = [UIColor redColor];
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    NSLog(@"product.label2x %@", product.issue.title);
+    NSLog(@"product: %@ %@", product.title, product.issue.title);
     [imageView setImageWithURL:[NSURL URLWithString:product.label2x]];
     [cell addSubview:imageView];
     return cell;
 }
 
-/*- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    Products *product = _data[indexPath.row];
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"lol1"];
-    cell.textLabel.text = product.title;
-    NSLog(@"product %@", product.title);
-    return cell;
-}*/
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     id<NSFetchedResultsSectionInfo> sectionInfo = self.fetchedResultsController.sections[section];
-    NSLog(@"[sectionInfo numberOfObjects] %lu", (unsigned long)[sectionInfo numberOfObjects]);
-    
     return [sectionInfo numberOfObjects];
 }
 
@@ -163,6 +141,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)setupLayerMask {
+    CAGradientLayer *gradientLayer = [[CAGradientLayer alloc] init];
+    gradientLayer.locations = @[@0.9, @1];
+    gradientLayer.startPoint = CGPointMake(1, 0);
+    gradientLayer.endPoint = CGPointMake(1, 1);
+    gradientLayer.colors = [NSArray arrayWithObjects:
+                            (id)[[UIColor blackColor] CGColor]
+                            , (id)[[UIColor clearColor] CGColor]
+                            , nil];
+    gradientLayer.opacity = 0.4;
+    gradientLayer.frame = self.view.bounds;
+    self.view.layer.mask = gradientLayer;
 }
 
 @end
