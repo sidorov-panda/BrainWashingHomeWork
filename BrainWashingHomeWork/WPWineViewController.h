@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WPWineViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, UISearchDisplayDelegate>
+@interface WPWineViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, UISearchDisplayDelegate, UITextFieldDelegate, NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property UISearchBar *searchBar;
